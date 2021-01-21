@@ -1,0 +1,205 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="min-nav">
+            <div>
+                <ul>
+                    <li><i class="fa fa-envelope"></i> customer@support.com</li>
+                    <li><i class="fa fa-mobile"></i> +91-9599595995</li>
+                </ul>
+            </div>
+        </nav>
+        <nav class="main-nav">
+            <div>
+                <img class="logo" src="./images/images.jpeg" />
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">More</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Feedback</a></li>
+                    <li>
+                        <button>Book an appointmemt</button>
+                    </li>
+                    <li class="cart"><i class="fa fa-shopping-cart"></i></li>
+                </ul>
+                <div class="burger-menu" onclick="navToggle()"><i class="fa fa-bars"></i></div>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="thank-you-pop row">
+            <div class="sucess-msg">
+
+                <span><i class="fa fa-check-circle fa-9x"></i></span>
+                <div>
+                    <h1>Thank You!</h1>
+                    <h1>We have received your booking</h1>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="services row">
+            <h2>SERVICES BOOKED</h2>
+            <div class="card-body">
+                <div class="card ">
+                    <img src="images/spa.jpeg">
+                    <div class="p-1 ml-5">
+                        <p>Natural Relaxation</p>
+                        <p class="times">12-thu-2018</p>
+                        <div>service assigned to
+                            <a class="representive-details">nishi sharma</a>
+                            <div class="tooltip-body">
+                                <div>
+                                    <img src="/images/spa.jpeg">
+                                    <div>
+                                        <h4>Nishi sharama</h4>
+                                        <span>22y, F</span>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consectetur, </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+                <div class="card  ml-5">
+                    <img src="images/spa1.jpeg">
+                    <div class="p-1 ml-5">
+                        <p>Natural Relaxation</p>
+                        <p class="times">12-thu-2018</p>
+                        <div>service assigned to
+                            <a class="representive-details">nishi sharma</a>
+                            <div class="tooltip-body">
+                                <div>
+                                    <img src="/images/spa.jpeg">
+                                    <div>
+                                        <h4>Nishi sharama</h4>
+                                        <span>22y, F</span>
+                                    </div>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam consectetur, </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="row">
+            <div class="booking-info-card">
+                <div class="booking-info">
+                    <h1>Booking info</h1>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><span>Booking ID :</span></td>
+                                <td>NAS120</td>
+                            </tr>
+                            <tr>
+                                <td><span>Business Conatct :</span></td>
+                                <td>7555556555</td>
+                            </tr>
+                            <tr>
+                                <td><span>Address :</span></td>
+                                <td>Some bla bla</td>
+                            </tr>
+                            <tr>
+                                <td><span>Price :</span></td>
+                                <td>2000</td>
+                            </tr>
+                            <tr>
+                                <td><span>Payment Mode :</span></td>
+                                <td>Pay on Arrival</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="your-details">
+                    <h1>Customer Info</h1>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><span>Name:</span></td>
+                                <td>Ashwin</td>
+                            </tr>
+                            <tr>
+                                <td><span>Conatct :</span></td>
+                                <td>7555556555</td>
+                            </tr>
+                            <tr>
+                                <td><span>Address :</span></td>
+                                <td>Some bla bla</td>
+                            </tr>
+                            <tr>
+                                <td><span>Email :</span></td>
+                                <td>abc@xyz.com</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section class="cs-message row">
+            <p>your appointement details has been share to mobile number <b>7555555555</b> and email address
+                <b>abc@xyz.com</b> as well.</p>
+            <p>Please be 10 mins prior of schedule time</p>
+        </section>
+    </main>
+
+    <section class="sub-footer">
+        <h1>Get our deals and offers in your inbox</h1>
+        <p>Subscribe to with your mail for updates</p>
+        <div>
+            <input placeholder="enter your mail">
+            <button>Submit</button>
+        </div>
+    </section>
+
+
+
+    <script src="index.js"></script>
+
+
+
+    <nav class="burger-nav">
+        <span class="close" onclick="navToggle()"><i class="fa fa-times"></i></span>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">More</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
+    </nav>
+
+</body>
+
+</html>
